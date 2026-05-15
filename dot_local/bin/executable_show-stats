@@ -1,0 +1,13 @@
+#!/bin/bash
+LOGFILE="$HOME/.local/share/tracking.log"
+TODAY=$(date +%Y-%m-%d)
+# Находим все записи за сегодня
+START=$(date --date="$TODAY 00:00:00" +%s)
+END=$(date --date="$TODAY 23:59:59" +%s)
+COUNT=$(grep -E "^[0-9]+$" "$LOGFILE" | awk -v s=$START -v e=$END '$1 >= s && $1 <= e' | wc -l)
+# Каждая запись — это минута (мы пишем каждую минуту)
+MINUTES=$COUNT
+HOURS=$((MINUTES / 60))
+MINS=$((MINUTES % 60))
+
+notify-send "Статистика использования ПК" "Сегодня вы провели за компьютером: $HOURS ч $MINS мин"

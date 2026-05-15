@@ -1,0 +1,52 @@
+window {
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9;
+    border: 3px solid #625283;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#input {
+    margin: 2px;
+    border: none;
+    color: #fff;
+    background-color: #625283;
+}
+
+#input image {
+    color: #ffed00;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#text {
+    margin: 5px;
+    border: none;
+}
+
+#entry:selected {
+    background-color: #625283;
+    border-radius: 6px;
+    color: #fff;
+}
+
+list {
+    background-color: #53446f;
+    border-radius: 6px;
+    color: #fff;
+}

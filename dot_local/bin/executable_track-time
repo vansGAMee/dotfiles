@@ -1,0 +1,7 @@
+#!/bin/bash
+LOGFILE="$HOME/.local/share/tracking.log"
+# Бесконечный цикл: каждую минуту пишем текущий timestamp
+while true; do
+    date +%s >> "$LOGFILE"
+    sleep 60
+done
