@@ -32,12 +32,12 @@
 
 ### На своём ПК (Arch) или CachyOS:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/voxelpy/dotfiles/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/vansGAMee/dotfiles/main/install.sh)
 ```
 
 ### На ноуте (CachyOS) — то же самое, но потом поменяй монитор:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/voxelpy/dotfiles/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/vansGAMee/dotfiles/main/install.sh)
 # После установки:
 sed -i 's/HDMI-A-1/eDP-1/' ~/.config/hypr/hyprland.conf
 ```
