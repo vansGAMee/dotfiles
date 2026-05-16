@@ -7,7 +7,7 @@
     "reload_style_on_change": true,
     "modules-left": ["custom/archlogo", "custom/notification", "clock", "custom/pacman", "tray"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/language", "custom/media", "disk", "group/expand", "bluetooth", "network", "battery"],
+    "modules-right": ["custom/language", "custom/media", "group/expand", "bluetooth", "network", "battery"],
 
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -113,16 +113,6 @@
         "format": "",
         "tooltip": false
     },
-    "disk": {
-        "interval": 30,
-        "format": "󰋊 {free}",
-        "path": "/"
-    },
-    "custom/netspeed": {
-        "exec": "~/.config/waybar/scripts/netspeed.sh",
-        "interval": 2,
-        "format": "{}"
-    },
     "custom/endpoint": {
         "format": "|",
         "tooltip": false
@@ -134,7 +124,7 @@
             "transition-to-left": true,
             "click-to-reveal": true
         },
-        "modules": ["custom/expand", "custom/colorpicker", "cpu", "memory", "temperature", "custom/netspeed", "custom/endpoint"]
+        "modules": ["custom/expand", "custom/colorpicker", "cpu", "memory", "temperature", "custom/endpoint"]
     },
     "custom/colorpicker": {
         "format": "{}",
