@@ -1,4 +1,3 @@
-activitywatch-bin
 ags-hyprpanel-git
 alacritty
 amd-ucode
