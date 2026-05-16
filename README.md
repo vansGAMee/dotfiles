@@ -1,3 +1,7 @@
+<img width="1920" height="1080" alt="2026-05-16_11-43-43" src="https://github.com/user-attachments/assets/2d9dc403-acae-497c-8642-5ece40138f40" />
+
+
+
 # Полный гайд по переносу системы
 > Arch Linux / CachyOS + Hyprland + Silent SDDM
 
