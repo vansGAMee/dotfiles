@@ -1,3 +1,5 @@
+reaper-bin
+unityhub
 ags-hyprpanel-git
 alacritty
 amd-ucode
