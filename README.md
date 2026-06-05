@@ -31,6 +31,7 @@
 | Аватарка | `ivan.face.icon` |
 | Все pacman пакеты | `pkglist.txt` |
 | Все AUR пакеты | `aurlist.txt` |
+| Все Flatpak пакеты | `flatpak_packages.txt` |
 
 ---
 
