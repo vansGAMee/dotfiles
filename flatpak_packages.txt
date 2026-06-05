@@ -1,0 +1,6 @@
+ch.tlaun.TL
+com.github.tchx84.Flatseal
+com.usebottles.bottles
+io.github.jeffshee.Hidamari
+org.kde.kdenlive
+org.localsend.localsend_app
