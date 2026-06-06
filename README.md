@@ -1,4 +1,5 @@
 <img width="1920" height="1080" alt="2026-05-16_14-15-17" src="https://github.com/user-attachments/assets/fc521167-1f0f-4ccb-953b-5dd15f71daaa" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/8bd76545-38fd-41cc-8212-d41021a4626d" />
 
 --------------
 
